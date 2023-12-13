@@ -6,7 +6,7 @@ class MatchCard extends Component {
     const {matchData} = this.props
     const {result, competingTeam, competingTeamLogo, matchStatus} = matchData
     return (
-      <li className={match-card ${matchStatus}}>
+      <li className={`match-card ${matchStatus}`}>
         <img
           className="match-card-logo"
           src={competingTeamLogo}
